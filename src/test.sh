@@ -1,3 +1,6 @@
+
+
+
 EXPECTED="Hello, Test"
 
 OUTPUT=$(node -e "console.log(require('./src/app')('Test'))")
@@ -13,3 +16,5 @@ else
 echo "Test Failed! Expected '$EXPECTED' but got '$OUTPUT'"
 
 exit 1
+
+fi
