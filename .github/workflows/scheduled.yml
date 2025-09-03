@@ -1,0 +1,10 @@
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  daily-task:
+    runs-on: ubunto-latest
+    steps:
+      - name: Print message
+        run: echo "Running th scheduled task"
