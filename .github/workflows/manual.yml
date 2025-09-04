@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
     inputs:
-      eviroment:
+      enviroment:
         description: "Choose enviroment"
         required: true
         default: "staging"
